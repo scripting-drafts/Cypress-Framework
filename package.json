@@ -1,0 +1,14 @@
+{
+  "name": "cypress-framework",
+  "version": "0.1.0",
+  "private": true,
+  "scripts": {
+    "cypress:open": "cypress open",
+    "cypress:run": "cypress run",
+    "test:ci": "cypress run --headless"
+  },
+  "devDependencies": {
+    "cypress": "^12.17.0",
+    "typescript": "^4.9.5"
+  }
+}
